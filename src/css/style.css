@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    margin: 0;
+    color: #fff;
+    font-family: "Roboto", sans-serif; 
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #F5F5F5;
+}
+
+li {
+    margin-right: 32px;
+    margin-left: 32px;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: "Roboto";
+    text-transform: uppercase; 
+    text-align: left;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 32px;
+    margin-bottom: 35px;
+    a {
+        text-decoration: none;
+        color: rgb(42, 196, 165);
+    }
+}
+
+#main_bg {
+    width: 100%;
+    height: 790px;
+}
+
+main {
+    flex: 1; 
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Roboto";
+    color: rgb(55, 55, 55);
+    line-height: 1.625;
+    text-align: center;
+    background-color:#F5F5F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    #life {
+        margin-top: 56px;
+        font-size: 22px;
+        font-weight: 700;
+        font-family: "Roboto";
+        color: rgb(55, 55, 55);
+        text-transform: uppercase;
+        line-height: 1.2;
+    }
+    p {
+        margin-top: 35px;
+        margin-left: 113px;
+        margin-right: 108px;
+    }
+    #start {
+        margin-top: 41px;
+        margin-bottom: 94px;
+        width: 192px;
+        height: 51px;
+        font-size: 12px;
+        font-family: "GothamRounded";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.667;
+        background-color: rgb(22, 160, 133);
+        border-color: white;
+        border-radius: 4%;
+    }
+}
+
+footer {
+    height: 67px;
+    margin-top: 47px;
+    color: #fff;
+    text-align: center;
+    h2 {
+        margin-right: 104px;
+        text-align: right;
+        font-size: 18px;
+        font-weight: 700;
+        font-family: "Roboto";
+        color: rgb(55, 55, 55);
+        line-height: 1.2;
+    }
+}
+

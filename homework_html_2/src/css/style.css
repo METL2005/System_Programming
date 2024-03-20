@@ -114,11 +114,13 @@ main {
         p {
             margin-bottom: 30px;
             padding-right: 35px;
+            padding-left: 31px;
             font-size: 18px;
             font-family: "Myriad Pro";
             color: rgb(44, 44, 44);
             line-height: 1.333;
             text-align: left;
+            text-wrap: pretty;
         }
     }
 }
@@ -152,6 +154,7 @@ footer {
             .copyright {
                 padding-left: 320px;
                 padding-right: 35px;
+                pointer-events: none;
             }
         }
 

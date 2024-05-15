@@ -69,8 +69,11 @@ p{
     width: 0;
     height: 0;
     position: absolute;
-    background: url('sw.mp3'); /* Путь к вашему аудиофайлу */
-    audio: sound; /* Связь с аудиофайлом */
+    background: url('/homework_html_7/sw.mp3'); 
+}
+
+audio {
+    display: none;
 }
 
 @keyframes play{
